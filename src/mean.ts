@@ -6,5 +6,5 @@ export function mean(x: Array<number>){
         sum += x[elements];
     }
     var out: number = sum / x.length;
-    console.log(out);
+    return out;
 }

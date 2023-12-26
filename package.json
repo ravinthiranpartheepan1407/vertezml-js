@@ -1,0 +1,18 @@
+{
+  "name": "vertezml",
+  "version": "1.0.0",
+  "description": "An open source scientific computing library for JS and TS developers",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/test/test.js",
+    "prepublishOnly": "npm run build",
+    "pretest": "npm run build"
+  },
+  "author": "Ravinthiran Partheepan",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
