@@ -19,4 +19,7 @@ Avaiable Functions:
 - Linear Regression (OLS)
 - Moving Average
 - Autoregressive Model
+- Covariance
+- Standard Deviation
+- Cosimilarity
 - In Progress...
