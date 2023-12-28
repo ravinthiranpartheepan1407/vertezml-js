@@ -22,4 +22,5 @@ Avaiable Functions:
 - Covariance
 - Standard Deviation
 - Cosimilarity
+- Two-way ANOVA
 - In Progress...
