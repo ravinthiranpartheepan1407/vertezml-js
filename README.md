@@ -17,4 +17,6 @@ Avaiable Functions:
 - Mode
 - Word Frequency
 - Linear Regression (OLS)
+- Moving Average
+- Autoregressive Model
 - In Progress...
