@@ -8,6 +8,7 @@ import { autoregressive } from "./src/autoregressive";
 import { cov } from "./src/cov";
 import { stdev } from "./src/stdev";
 import { cosimilarity } from "./src/cosimilarity";
+import { anova } from "./src/anova";
 
 export * from "./src/mean";
 export * from "./src/median"
@@ -19,3 +20,4 @@ export * from "./src/autoregressive"
 export * from "./src/cov"
 export * from "./src/stdev"
 export * from "./src/cosimilarity"
+export * from "./src/anova"
