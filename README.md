@@ -23,4 +23,5 @@ Avaiable Functions:
 - Standard Deviation
 - Cosimilarity
 - Two-way ANOVA
+- Seasonal Decomposition
 - In Progress...
