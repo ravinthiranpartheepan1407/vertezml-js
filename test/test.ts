@@ -10,9 +10,34 @@ import { stdev } from "../src/stdev";
 import { cosimilarity } from "../src/cosimilarity";
 import { anova } from "../src/anova";
 import { seasondecomp } from "../src/seasondecomp";
+import { chisqr } from "../src/chisqr";
 
 var numbers: Array<number> = [10,20,30,40];
 var yNumbers: Array<number> = [15,25,35,45];
+
+type data = {
+    groups: string;
+    metrics: Array<string>;
+    values: Array<number>;
+}
+
+var a: data = {
+    groups: "Provider A",
+    metrics: ["Good", "Average", "Poor"],
+    values: [45, 30, 25],
+};
+
+var b: data = {
+    groups: "Provider B",
+    metrics: ["Good", "Average", "Poor"],
+    values: [40, 35, 25],
+};
+
+var c: data = {
+    groups: "Provider C",
+    metrics: ["Good", "Average", "Poor"],
+    values: [55, 25, 20],
+};
 
 var chars: Array<string> = ["Hello", "Welcome", "Hello", "Hi", "hello"]
 
@@ -32,3 +57,4 @@ console.log(stdev(numbers));
 console.log(cosimilarity(numbers, yNumbers))
 console.log(anova(numbers, yNumbers))
 console.log(seasondecomp(numbers))
+console.log(chisqr(a,b,c))
