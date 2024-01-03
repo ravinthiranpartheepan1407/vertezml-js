@@ -24,4 +24,5 @@ Avaiable Functions:
 - Cosimilarity
 - Two-way ANOVA
 - Seasonal Decomposition
+- Chi-Square Test
 - In Progress...
