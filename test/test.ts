@@ -11,9 +11,10 @@ import { cosimilarity } from "../src/cosimilarity";
 import { anova } from "../src/anova";
 import { seasondecomp } from "../src/seasondecomp";
 import { chisqr } from "../src/chisqr";
+import { correlation } from "../src/corrrelation";
 
-var numbers: Array<number> = [10,20,30,40];
-var yNumbers: Array<number> = [15,25,35,45];
+var numbers: Array<number> = [105,150,125,110,75];
+var yNumbers: Array<number> = [45,70,65,50,15];
 
 type data = {
     groups: string;
@@ -58,3 +59,4 @@ console.log(cosimilarity(numbers, yNumbers))
 console.log(anova(numbers, yNumbers))
 console.log(seasondecomp(numbers))
 console.log(chisqr(a,b,c))
+console.log(correlation(numbers,yNumbers))
