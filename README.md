@@ -25,4 +25,5 @@ Avaiable Functions:
 - Two-way ANOVA
 - Seasonal Decomposition
 - Chi-Square Test
+- Correlation
 - In Progress...
